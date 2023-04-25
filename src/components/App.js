@@ -22,6 +22,7 @@ function App() {
   return (
     <main>
       <section>
+        <span style={{color:'green',fontSize:'2rem', padding: '2rem'}}>Score: {score}</span>
         {currentQuestion ? (
           <Question
             question={currentQuestion}
